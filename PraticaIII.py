@@ -22,7 +22,7 @@ if __name__ == "__main__":
     # filepath = '/content/drive/MyDrive/PraticaIII/mandril.bmp'
     filepath = 'mandril.bmp'
     img = Image.open(filepath)
-    matriculas = [20205642]
+    matriculas = [20100516]
     
     # instancia objeto Cuif, convertendo imagem em CUIF.1
     cuif = Cuif(img,1,matriculas)
@@ -35,11 +35,11 @@ if __name__ == "__main__":
     
     #gera o arquivo Cuif.1
     cuif.save('mandril1.cuif')
-    
+
     #Abre um arquivo Cuif e gera o objeto Cuif
     #cuif1 = Cuif.openCUIF('mandril1.cuif')
-    
-    # Converte arquivo Cuif em BMP e mostra
+    #
+    ## Converte arquivo Cuif em BMP e mostra
     #cuif1.saveBMP("mandril1.bmp")
     #cuif1.show()
     
